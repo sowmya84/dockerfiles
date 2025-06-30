@@ -3,4 +3,4 @@ RUN mkdir /tmp/work-dir-demo
 RUN cd /tmp/work-dir-demo
 RUN pwd
 RUN echo "Hello from WORK dir" > hello.txt
-CMD ["sleeep", "100"]
+CMD ["sleep", "100"]
